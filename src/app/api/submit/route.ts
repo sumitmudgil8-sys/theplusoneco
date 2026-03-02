@@ -46,7 +46,7 @@ export async function POST(req: Request) {
       );
     }
 
-    const scriptUrl = process.env.CLIENT_SHEET_URL;
+    const scriptUrl = process.env.CLIENT_SHEET_WEBHOOK;
 
     if (!scriptUrl) {
       console.error("CLIENT_SHEET_URL missing");
