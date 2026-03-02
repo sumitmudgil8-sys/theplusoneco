@@ -13,7 +13,7 @@ function ScreeningChat({ onQualified }: { onQualified: (aiScore: number) => void
   const [messages, setMessages] = useState([
     {
       role: "assistant",
-      text: "Welcome. This is a brief private screening. Everything shared is strictly confidential.\n\nBefore we proceed — are you 21 years of age or older? (Yes / No)",
+      text: "Welcome. This is a brief private screening for our one-on-one professional companionship network. All meetings are platonic and conducted in public venues. Everything shared here is strictly confidential.\n\nBefore we proceed — are you 21 years of age or older? (Yes / No)",
     },
   ]);
   const [input, setInput] = useState("");
@@ -171,7 +171,7 @@ function ScreeningChat({ onQualified }: { onQualified: (aiScore: number) => void
       setStep(step + 1);
       setAwaitingEssay(true);
       pushAssistant(
-        "Before proceeding, please answer the following in 50–120 words:\n\nImagine you are meeting someone for the first time at a café for a two-hour companionship engagement. How would you ensure the interaction feels comfortable, natural, and respectful for both of you?"
+        "Before proceeding, please answer the following in 50–120 words:\n\nImagine you are meeting a client for the first time at a public café for a two-hour platonic companionship engagement. Your role is to provide emotional presence and engaging conversation. How would you ensure the interaction feels safe, comfortable, and meaningful for both of you?"
       );
     }
   };
@@ -943,17 +943,17 @@ export default function CompanionPage() {
             <div className="hero">
               <div className="monogram"><div className="monogram-inner" /></div>
               <p className="eyebrow">Delhi NCR &nbsp;·&nbsp; Selective Intake &nbsp;·&nbsp; Private Network</p>
-              <h1 className="hero-title">Social Representation</h1>
-              <p className="hero-sub">A private invitation for refined women</p>
+              <h1 className="hero-title">Social Companionship</h1>
+              <p className="hero-sub">A selective network for emotionally intelligent women</p>
 
               <p className="hero-kicker">
-                We curate a small, carefully selected group of accomplished women for structured professional engagements — corporate events, formal dinners, private introductions, and cultural occasions. This is a professional opportunity. Discretion, presentation, and conduct are paramount.
+               We curate a small, carefully selected group of women for structured one-on-one companionship engagements. These are platonic, in-person meetings held in public venues such as cafés, restaurants, and lounges. Your role is to offer presence, conversation, and emotional composure in a safe and respectful environment. Discretion and professionalism are essential.
               </p>
 
               <div className="stat-row">
                 <div className="stat-cell">
                   <span className="stat-value">₹2k-3K</span>
-                  <span className="stat-label">Per engagement</span>
+                  <span className="stat-label">Per 2–3 hour meeting</span>
                 </div>
                 <div className="stat-cell">
                   <span className="stat-value">Flexible</span>
@@ -982,7 +982,7 @@ export default function CompanionPage() {
               <div className="rule rule--wide rule--center" />
 
               <p className="gate-copy">
-                Every engagement is formal, professionally structured, and conducted in public or semi-private settings. We guarantee payment, client verification, and your right to decline any engagement.
+                 Every engagement is a structured, one-on-one platonic meeting conducted in public venues. The purpose is meaningful conversation and social presence. We guarantee payment, client verification, and your right to decline any engagement.
               </p>
 
               <div className="pillars">
@@ -990,28 +990,28 @@ export default function CompanionPage() {
                   <span className="pillar-num">I</span>
                   <div className="pillar-text">
                     <h4>Guaranteed Payment</h4>
-                    <p>Compensation is confirmed before each engagement. No ambiguity, no delays. Direct transfer within 24 hours of the event.</p>
+                    <p>Compensation is confirmed before each meeting. No ambiguity, no delays. Direct transfer within 24 hours of completion.</p>
                   </div>
                 </div>
                 <div className="pillar">
                   <span className="pillar-num">II</span>
                   <div className="pillar-text">
                     <h4>Client Verification</h4>
-                    <p>Every client is ID-verified and referenced before any introduction. You receive a full brief — name, context, and venue — in advance.</p>
+                    <p>Every client is ID-verified and screened before any introduction. You receive a full brief — name, background, and venue — in advance.</p>
                   </div>
                 </div>
                 <div className="pillar">
                   <span className="pillar-num">III</span>
                   <div className="pillar-text">
                     <h4>Right of Refusal</h4>
-                    <p>You may decline any engagement, at any time, without explanation. We do not question it. Your comfort is not negotiable.</p>
+                    <p>You may decline any meeting at any time without explanation. Your comfort, safety, and boundaries are always respected.</p>
                   </div>
                 </div>
                 <div className="pillar">
                   <span className="pillar-num">IV</span>
                   <div className="pillar-text">
                     <h4>Absolute Discretion</h4>
-                    <p>Your identity and participation are never disclosed. We operate on a strict confidentiality framework, both for you and for our clients.</p>
+                    <p>Your identity and participation remain confidential. All meetings are expected to remain private and professional.</p>
                   </div>
                 </div>
               </div>
