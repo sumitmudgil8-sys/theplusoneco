@@ -30,7 +30,7 @@ export async function POST(req: Request) {
       );
     }
 
-    const scriptUrl = process.env.GOOGLE_SCRIPT_URL;
+    const scriptUrl = process.env.CLIENT_SHEET_URL;
     if (!scriptUrl) {
       return NextResponse.json(
         { error: "Server is missing required environment configuration." },
